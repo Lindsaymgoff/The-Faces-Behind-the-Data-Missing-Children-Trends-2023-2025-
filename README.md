@@ -5,7 +5,7 @@ By: Lindsay Goff
 
 Presentation: https://www.canva.com/design/DAG6NxwzquI/7NR4ylNocuGVM7NFAuLhMQ/view
 
- Project Overview
+📌 Project Overview
 
 This project analyzes demographic patterns among missing children in the United States between 2023–2025. The project was inspired by growing concerns that Native American and African American children are disproportionately represented among missing-child cases, while receiving less media coverage and public awareness compared to White/Caucasian children.
 
@@ -14,7 +14,7 @@ age, gender, ethnicity, and state, and incorporates national child population da
 
 This rate-based approach reveals deeper insights into which demographic groups are most affected and how reporting limitations (especially missing Hispanic ethnicity data in federal systems) impact visibility.
 
- Project Objectives
+🎯 Project Objectives
 
 Identify demographic patterns among missing children from 2023–2025.
 
@@ -26,7 +26,7 @@ Compare missing-child raw counts vs population-adjusted rates.
 
 Highlight gaps in media visibility, federal reporting, and demographic inclusion.
 
- Data Sources
+📂 Data Sources
 Primary Data
 
 FBI NCIC – 2024 Missing and Unidentified Person Statistics
@@ -49,7 +49,7 @@ NAMUS Dashboard
 
 NCMEC – 2023 and 2024 Our Impact Reports
 
- Key Research Questions
+🔍 Key Research Questions
 
 Which age groups have the highest missing-child counts?
 
@@ -109,7 +109,7 @@ Tribal land jurisdiction
 
 reporting consistency
 
-SQL Queries Used
+📈 SQL Queries Used
 A. Total Missing Children by Ethnicity
 SELECT ethnicity, COUNT(*) AS total_missing
 FROM missing_children
@@ -151,7 +151,7 @@ FROM missing_counts mc
 JOIN child_population pop USING (ethnicity)
 ORDER BY missing_rate DESC;
 
-Conclusion
+🧠 Conclusion
 
 The analysis of missing children from 2023–2025 reveals:
 
@@ -167,7 +167,7 @@ Major disparities are hidden unless population-based rates are examined, rather 
 
 These findings demonstrate the need for improved reporting, equitable media coverage, and targeted assistance programs.
 
-Proposed Solutions
+🛠 Proposed Solutions
 1. Improve National Data Reporting
 
 Include Hispanic/Latino as a required demographic category.
@@ -210,14 +210,13 @@ Ensure cases are uploaded and updated consistently.
 
 📎 Presentation Link
 
-View the full presentation on Canva:
+👉 View the full presentation on Canva:
 https://www.canva.com/design/DAG6NxwzquI/7NR4ylNocuGVM7NFAuLhMQ/view
 
 👤 Author
+
 Lindsay Goff
 Healthcare & Social Impact Data Analyst
 Specializing in public health, equity, and human rights analytics.
-
-Lindsay Goff
 Healthcare & Social Impact Data Analyst
 Specializing in public health, equity, and human rights analytics.
